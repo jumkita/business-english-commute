@@ -15,6 +15,7 @@ class Page(StrEnum):
     DICTATION = "dictation"
     LISTENING = "listening"
     SPEAKING = "speaking"
+    SHADOWING = "shadowing"
     DICTIONARY = "dictionary"
     RECORD = "record"
 
@@ -25,6 +26,7 @@ PAGE_LABELS: dict[Page, str] = {
     Page.DICTATION: "✍️ 書き取り",
     Page.LISTENING: "🎧 聞き流し",
     Page.SPEAKING: "🗣 発音",
+    Page.SHADOWING: "🔁 シャドーイング",
     Page.DICTIONARY: "📚 辞書",
     Page.RECORD: "📊 記録",
 }

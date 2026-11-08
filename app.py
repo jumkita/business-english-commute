@@ -15,6 +15,7 @@ from english_app.views import (
     listening_view,
     quiz_view,
     record_view,
+    shadowing_view,
     speaking_view,
 )
 from english_app.views.storage_view import render_storage_status
@@ -34,6 +35,8 @@ def render_page(page: Page, context: AppContext) -> None:
             listening_view.render(context)
         case Page.SPEAKING:
             speaking_view.render(context)
+        case Page.SHADOWING:
+            shadowing_view.render(context)
         case Page.DICTIONARY:
             dictionary_view.render(context)
         case Page.RECORD:

@@ -5,7 +5,6 @@ from __future__ import annotations
 import random
 import time
 from dataclasses import dataclass, field
-from typing import assert_never
 
 import streamlit as st
 
@@ -14,7 +13,7 @@ from english_app.dictation import DICTATION_DOMAINS, DictationItem, build_dictat
 from english_app.session import DAILY_NEW_CARD_LIMIT, StudyMode, StudySession, make_card_id, pick_next_card
 from english_app.text_match import MatchResult, Verdict, compare
 from english_app.ui.components import speak_button
-from english_app.ui.diff_view import DIFF_LEGEND, VERDICT_LABELS, render_diff_html
+from english_app.ui.diff_view import DIFF_LEGEND, render_diff_html, render_verdict
 from english_app.ui.formatting import SECONDS_PER_MINUTE, escape_markdown, format_percent, format_remaining
 from english_app.ui.session_options import DEFAULT_DURATION_MINUTES, render_duration_picker
 from english_app.ui.state import AppContext, current_run, flush_progress, record_answer, render_flag_button
@@ -135,16 +134,7 @@ def _render_answer_form(run: DictationRun, item: DictationItem, number: int) -> 
 def _render_check_result(
     context: AppContext, run: DictationRun, item: DictationItem, result: MatchResult, number: int
 ) -> None:
-    label = f"{VERDICT_LABELS[result.verdict]}（一致率 {format_percent(result.accuracy)}）"
-    match result.verdict:
-        case Verdict.CORRECT:
-            st.success(label)
-        case Verdict.CLOSE:
-            st.warning(label)
-        case Verdict.INCORRECT:
-            st.error(label)
-        case _:
-            assert_never(result.verdict)
+    render_verdict(result)
     st.markdown(render_diff_html(result), unsafe_allow_html=True)
     st.caption(DIFF_LEGEND)
     st.markdown(f"**正解**: {escape_markdown(item.text)}")
