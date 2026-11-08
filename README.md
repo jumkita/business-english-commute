@@ -3,7 +3,7 @@
 通勤などのスキマ時間に、iPhone でビジネス英語の基礎（語彙・音声変化・定型表現・実務文法・会話の聞き取り）を学ぶための Streamlit アプリです。対象は中上級（TOEIC 750 以上）、利用者は本人 1 名を想定しています。
 
 - 要件定義: [docs/requirements.md](docs/requirements.md)
-- 公開 URL: Streamlit Community Cloud へのデプロイ後に記入
+- 公開 URL: https://business-english-commute.streamlit.app/ （パスコードを入力するまでは、学習履歴を保存しないお試しモードで動きます）
 
 ## できること
 
