@@ -1,0 +1,338 @@
+[
+  {
+    "id": "ph-001",
+    "scene": "meeting",
+    "phrase_en": "Could we go over the agenda before we start?",
+    "meaning_ja": "始める前に、議題を確認してもいいですか？",
+    "politeness": "neutral",
+    "note": "go over は「ざっと確認する・見直す」。会議の冒頭で使える。"
+  },
+  {
+    "id": "ph-002",
+    "scene": "meeting",
+    "phrase_en": "I see your point, but I have a slightly different view.",
+    "meaning_ja": "おっしゃることは分かりますが、私は少し違う見方をしています。",
+    "politeness": "formal",
+    "note": "まず相手の意見を認めてから反対意見を述べる、角の立たない型。slightly で和らげている。"
+  },
+  {
+    "id": "ph-003",
+    "scene": "meeting",
+    "phrase_en": "Just to make sure we're on the same page, the deadline is the 15th.",
+    "meaning_ja": "認識を合わせておくと、締め切りは15日です。",
+    "politeness": "neutral",
+    "note": "on the same page は「認識が一致している」。確認の前置きとして便利。"
+  },
+  {
+    "id": "ph-004",
+    "scene": "meeting",
+    "phrase_en": "Can I jump in here for a second?",
+    "meaning_ja": "ちょっと口を挟んでもいいですか？",
+    "politeness": "casual",
+    "note": "発言に割り込むときの合図。より丁寧にするなら Sorry to interrupt, but ... を使う。"
+  },
+  {
+    "id": "ph-005",
+    "scene": "meeting",
+    "phrase_en": "Let's take this offline.",
+    "meaning_ja": "この件は会議の後で、別途話しましょう。",
+    "politeness": "neutral",
+    "note": "全員に関係しない話題を、会議の外で個別に話そうと提案する表現。インターネット接続とは関係ない。"
+  },
+  {
+    "id": "ph-006",
+    "scene": "meeting",
+    "phrase_en": "To sum up, we've agreed on the budget and the timeline.",
+    "meaning_ja": "まとめると、予算とスケジュールについて合意しました。",
+    "politeness": "neutral",
+    "note": "To sum up / To summarize で議論をまとめる。会議の締めくくりに使う。"
+  },
+  {
+    "id": "ph-007",
+    "scene": "presentation",
+    "phrase_en": "Today, I'd like to walk you through our results for the third quarter.",
+    "meaning_ja": "本日は、第3四半期の結果を順を追ってご説明します。",
+    "politeness": "formal",
+    "note": "walk 人 through ～ は「～を順を追って説明する」。プレゼン冒頭の定番。"
+  },
+  {
+    "id": "ph-008",
+    "scene": "presentation",
+    "phrase_en": "As you can see from this chart, sales have picked up since June.",
+    "meaning_ja": "このグラフから分かるように、6月以降、売上は持ち直しています。",
+    "politeness": "neutral",
+    "note": "pick up は「回復する・持ち直す」。グラフを示しながら使う。"
+  },
+  {
+    "id": "ph-009",
+    "scene": "presentation",
+    "phrase_en": "I'll be happy to take questions at the end.",
+    "meaning_ja": "ご質問は最後にお受けします。",
+    "politeness": "formal",
+    "note": "質疑応答のタイミングを最初に伝えておくと、発表の流れを保てる。"
+  },
+  {
+    "id": "ph-010",
+    "scene": "presentation",
+    "phrase_en": "Let me move on to the next point.",
+    "meaning_ja": "次のポイントに移ります。",
+    "politeness": "neutral",
+    "note": "話題を切り替える合図。Moving on, ... と短くも言える。"
+  },
+  {
+    "id": "ph-011",
+    "scene": "presentation",
+    "phrase_en": "That's a great question. Let me get back to you on that.",
+    "meaning_ja": "良いご質問ですね。その件は後ほど回答させてください。",
+    "politeness": "neutral",
+    "note": "その場で答えられないときの定番。後で必ずフォローすることが前提。"
+  },
+  {
+    "id": "ph-012",
+    "scene": "presentation",
+    "phrase_en": "The key takeaway here is that we need to act quickly.",
+    "meaning_ja": "ここで一番お伝えしたいのは、迅速に動く必要があるということです。",
+    "politeness": "neutral",
+    "note": "takeaway は「持ち帰ってほしい要点」。結論を強調するときに使う。"
+  },
+  {
+    "id": "ph-013",
+    "scene": "negotiation",
+    "phrase_en": "We were hoping for something closer to 10% off.",
+    "meaning_ja": "10%近い値引きを期待していたのですが。",
+    "politeness": "formal",
+    "note": "過去進行形 were hoping にすることで、要求を控えめに伝えている。"
+  },
+  {
+    "id": "ph-014",
+    "scene": "negotiation",
+    "phrase_en": "Would you be open to a longer contract in exchange for a lower price?",
+    "meaning_ja": "価格を下げていただく代わりに、より長期の契約をご検討いただけますか？",
+    "politeness": "formal",
+    "note": "be open to ～ は「～を検討する余地がある」。in exchange for で交換条件を示す。"
+  },
+  {
+    "id": "ph-015",
+    "scene": "negotiation",
+    "phrase_en": "That's a bit more than we budgeted for.",
+    "meaning_ja": "予算より少し高いですね。",
+    "politeness": "neutral",
+    "note": "「高すぎる」と直接言わずに、予算を理由に婉曲に伝える。"
+  },
+  {
+    "id": "ph-016",
+    "scene": "negotiation",
+    "phrase_en": "I'm afraid that's not something we can agree to.",
+    "meaning_ja": "申し訳ありませんが、それには同意いたしかねます。",
+    "politeness": "formal",
+    "note": "I'm afraid で断りを和らげる。No, we can't. より丁寧で、交渉の関係も保てる。"
+  },
+  {
+    "id": "ph-017",
+    "scene": "negotiation",
+    "phrase_en": "Let's see if we can find some middle ground.",
+    "meaning_ja": "歩み寄れる点がないか探りましょう。",
+    "politeness": "neutral",
+    "note": "middle ground は「妥協点・中間地点」。対立を和らげて交渉を前に進める。"
+  },
+  {
+    "id": "ph-018",
+    "scene": "negotiation",
+    "phrase_en": "If you can guarantee delivery by March, we can move forward.",
+    "meaning_ja": "3月までの納品を保証していただけるなら、話を進められます。",
+    "politeness": "neutral",
+    "note": "If you can ～, we can ～ で条件付きの合意を示す。"
+  },
+  {
+    "id": "ph-019",
+    "scene": "email",
+    "phrase_en": "I hope this email finds you well.",
+    "meaning_ja": "お元気でお過ごしのことと存じます。",
+    "politeness": "formal",
+    "note": "メール冒頭のあいさつの定型句。社外向けや、久しぶりの相手に使う。"
+  },
+  {
+    "id": "ph-020",
+    "scene": "email",
+    "phrase_en": "I'm writing to follow up on our conversation last week.",
+    "meaning_ja": "先週お話しした件について、改めてご連絡いたしました。",
+    "politeness": "formal",
+    "note": "I'm writing to ～ でメールの目的を最初に示す。"
+  },
+  {
+    "id": "ph-021",
+    "scene": "email",
+    "phrase_en": "Please find attached the revised proposal.",
+    "meaning_ja": "修正版の提案書を添付いたします。",
+    "politeness": "formal",
+    "note": "添付を知らせる定型句。I've attached the revised proposal. とすると少しくだけた言い方になる。"
+  },
+  {
+    "id": "ph-022",
+    "scene": "email",
+    "phrase_en": "Could you let me know by the end of the day?",
+    "meaning_ja": "本日中にお知らせいただけますか？",
+    "politeness": "neutral",
+    "note": "by the end of the day（EOD）は「今日の業務時間内に」。期限を明確にする。"
+  },
+  {
+    "id": "ph-023",
+    "scene": "email",
+    "phrase_en": "Sorry for the late reply.",
+    "meaning_ja": "返信が遅くなってすみません。",
+    "politeness": "casual",
+    "note": "社内やチャット向け。社外には I apologize for the delayed response. の方が丁寧。"
+  },
+  {
+    "id": "ph-024",
+    "scene": "email",
+    "phrase_en": "Please don't hesitate to contact me if you have any questions.",
+    "meaning_ja": "ご不明な点がございましたら、お気軽にご連絡ください。",
+    "politeness": "formal",
+    "note": "メール末尾の定型句。Feel free to ～ よりも丁寧。"
+  },
+  {
+    "id": "ph-025",
+    "scene": "online_meeting",
+    "phrase_en": "Can everyone hear me okay?",
+    "meaning_ja": "皆さん、私の声は聞こえていますか？",
+    "politeness": "neutral",
+    "note": "オンライン会議の冒頭で、音声を確認する定番。"
+  },
+  {
+    "id": "ph-026",
+    "scene": "online_meeting",
+    "phrase_en": "I think you're on mute.",
+    "meaning_ja": "ミュートになっているようですよ。",
+    "politeness": "casual",
+    "note": "I think を付けると、指摘が柔らかくなる。"
+  },
+  {
+    "id": "ph-027",
+    "scene": "online_meeting",
+    "phrase_en": "Sorry, you cut out for a second. Could you repeat that?",
+    "meaning_ja": "すみません、一瞬音声が途切れました。もう一度言っていただけますか？",
+    "politeness": "neutral",
+    "note": "cut out は「（音声が）途切れる」。break up も同じ意味で使う。"
+  },
+  {
+    "id": "ph-028",
+    "scene": "online_meeting",
+    "phrase_en": "Let me share my screen.",
+    "meaning_ja": "画面を共有しますね。",
+    "politeness": "neutral",
+    "note": "画面共有を始めるときの一言。Can you see my screen? と続けて確認するとよい。"
+  },
+  {
+    "id": "ph-029",
+    "scene": "online_meeting",
+    "phrase_en": "I think we lost Tom.",
+    "meaning_ja": "トムさんの接続が切れたみたいです。",
+    "politeness": "casual",
+    "note": "lose 人 で「（通話から）人が落ちる」。会議中の状況報告に使う。"
+  },
+  {
+    "id": "ph-030",
+    "scene": "online_meeting",
+    "phrase_en": "I have a hard stop at three.",
+    "meaning_ja": "3時には必ず抜けなければなりません。",
+    "politeness": "neutral",
+    "note": "hard stop は「延長できない終了時刻」。会議の最初に伝えておくと親切。"
+  },
+  {
+    "id": "ph-031",
+    "scene": "small_talk",
+    "phrase_en": "How was your weekend?",
+    "meaning_ja": "週末はどうでしたか？",
+    "politeness": "casual",
+    "note": "月曜日の雑談の定番。具体的に一言返して会話を広げるとよい。"
+  },
+  {
+    "id": "ph-032",
+    "scene": "small_talk",
+    "phrase_en": "Have you been busy lately?",
+    "meaning_ja": "最近忙しいですか？",
+    "politeness": "casual",
+    "note": "近況を尋ねる気軽な一言。"
+  },
+  {
+    "id": "ph-033",
+    "scene": "small_talk",
+    "phrase_en": "How are things on your end?",
+    "meaning_ja": "そちらの状況はいかがですか？",
+    "politeness": "casual",
+    "note": "on your end は「そちら側では」。リモートの相手との雑談や近況確認で使う。"
+  },
+  {
+    "id": "ph-034",
+    "scene": "small_talk",
+    "phrase_en": "It's been a while. How have you been?",
+    "meaning_ja": "お久しぶりです。お元気でしたか？",
+    "politeness": "neutral",
+    "note": "久しぶりに会った相手への定番。現在完了で「この間ずっと」を表す。"
+  },
+  {
+    "id": "ph-035",
+    "scene": "small_talk",
+    "phrase_en": "Did you have any trouble finding the place?",
+    "meaning_ja": "場所はすぐに分かりましたか？",
+    "politeness": "neutral",
+    "note": "来訪者を迎えるときの気遣いの一言。"
+  },
+  {
+    "id": "ph-036",
+    "scene": "small_talk",
+    "phrase_en": "Thank you for taking the time to meet with us.",
+    "meaning_ja": "お時間をいただき、ありがとうございます。",
+    "politeness": "formal",
+    "note": "面談や商談の冒頭・最後に使う、丁寧なお礼。"
+  },
+  {
+    "id": "ph-037",
+    "scene": "feedback",
+    "phrase_en": "Overall, this is great work. I just have a couple of suggestions.",
+    "meaning_ja": "全体としてとても良い出来です。いくつか提案があるだけです。",
+    "politeness": "neutral",
+    "note": "先に全体を評価してから提案に入ると、相手が受け入れやすい。"
+  },
+  {
+    "id": "ph-038",
+    "scene": "feedback",
+    "phrase_en": "Have you considered presenting the data in a chart instead?",
+    "meaning_ja": "代わりに、データをグラフで示すことは検討しましたか？",
+    "politeness": "neutral",
+    "note": "指示ではなく質問の形にすることで、提案を柔らかくしている。"
+  },
+  {
+    "id": "ph-039",
+    "scene": "feedback",
+    "phrase_en": "It might be worth double-checking these numbers.",
+    "meaning_ja": "これらの数字は、もう一度確認しておいた方がいいかもしれません。",
+    "politeness": "neutral",
+    "note": "It might be worth ～ing は「～する価値があるかも」。誤りを婉曲に指摘できる。"
+  },
+  {
+    "id": "ph-040",
+    "scene": "feedback",
+    "phrase_en": "I really appreciate you staying late to finish this.",
+    "meaning_ja": "これを仕上げるために遅くまで残ってくれて、本当に感謝しています。",
+    "politeness": "neutral",
+    "note": "appreciate 人 ～ing で、相手の具体的な行動に感謝を伝える。"
+  },
+  {
+    "id": "ph-041",
+    "scene": "feedback",
+    "phrase_en": "One thing I'd like you to work on is time management.",
+    "meaning_ja": "改善してほしい点の1つは、時間管理です。",
+    "politeness": "neutral",
+    "note": "work on は「改善に取り組む」。weakness（弱点）と言うより前向きに聞こえる。"
+  },
+  {
+    "id": "ph-042",
+    "scene": "feedback",
+    "phrase_en": "Thanks for the feedback. I'll keep that in mind.",
+    "meaning_ja": "フィードバックありがとうございます。心に留めておきます。",
+    "politeness": "neutral",
+    "note": "指摘を受けたときの返事。keep ～ in mind は「～を覚えておく」。"
+  }
+]

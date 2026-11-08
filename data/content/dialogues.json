@@ -1,0 +1,54 @@
+[
+  {
+    "id": "dlg-001",
+    "title": "打ち合わせの日程変更",
+    "scene": "meeting",
+    "lines": [
+      {"speaker": "Emma", "text": "Hi Ken, do you have a minute?", "meaning_ja": "ケン、ちょっといいですか？"},
+      {"speaker": "Ken", "text": "Sure. What's up?", "meaning_ja": "もちろん。どうしました？"},
+      {"speaker": "Emma", "text": "I was wondering if we could push our meeting back to Thursday.", "meaning_ja": "打ち合わせを木曜日に延ばせないかと思いまして。"},
+      {"speaker": "Ken", "text": "Thursday works for me. Is the morning okay?", "meaning_ja": "木曜日で大丈夫です。午前中でいいですか？"},
+      {"speaker": "Emma", "text": "Actually, the afternoon would be better. How about two o'clock?", "meaning_ja": "実は午後の方が都合がいいんです。2時はどうですか？"},
+      {"speaker": "Ken", "text": "Two o'clock it is. I'll send you an updated invite.", "meaning_ja": "では2時にしましょう。更新した招待を送りますね。"}
+    ]
+  },
+  {
+    "id": "dlg-002",
+    "title": "見積もりの価格交渉",
+    "scene": "negotiation",
+    "lines": [
+      {"speaker": "Lee", "text": "We've reviewed your quote, and it's a bit higher than we expected.", "meaning_ja": "お見積もりを拝見しましたが、想定より少し高いですね。"},
+      {"speaker": "Brown", "text": "I understand. Which part of the price concerns you the most?", "meaning_ja": "承知しました。価格のどの部分が一番気になりますか？"},
+      {"speaker": "Lee", "text": "Mainly the maintenance fee. Is there any flexibility there?", "meaning_ja": "主に保守費用です。そこは調整の余地がありますか？"},
+      {"speaker": "Brown", "text": "If you sign a two-year contract, we could reduce it by fifteen percent.", "meaning_ja": "2年契約を結んでいただければ、15%下げられます。"},
+      {"speaker": "Lee", "text": "That sounds reasonable. Let me run it by my manager.", "meaning_ja": "妥当そうですね。上司に確認させてください。"},
+      {"speaker": "Brown", "text": "Of course. I'll put together a revised proposal in the meantime.", "meaning_ja": "もちろんです。その間に修正版の提案をまとめておきます。"}
+    ]
+  },
+  {
+    "id": "dlg-003",
+    "title": "プロジェクトの進捗確認",
+    "scene": "meeting",
+    "lines": [
+      {"speaker": "Sarah", "text": "Where are we on the website redesign?", "meaning_ja": "ウェブサイトのリニューアルはどうなっていますか？"},
+      {"speaker": "Tom", "text": "We're about two weeks behind schedule, unfortunately.", "meaning_ja": "残念ながら、予定より2週間ほど遅れています。"},
+      {"speaker": "Sarah", "text": "What's causing the delay?", "meaning_ja": "遅れの原因は何ですか？"},
+      {"speaker": "Tom", "text": "We're still waiting on the final content from the marketing team.", "meaning_ja": "マーケティングチームからの最終原稿を、まだ待っているんです。"},
+      {"speaker": "Sarah", "text": "Okay, I'll talk to them today and see if they can speed things up.", "meaning_ja": "わかりました。今日彼らと話して、早められないか確認します。"},
+      {"speaker": "Tom", "text": "Thanks. That would really help.", "meaning_ja": "ありがとうございます。とても助かります。"}
+    ]
+  },
+  {
+    "id": "dlg-004",
+    "title": "オンライン会議の始まり",
+    "scene": "online_meeting",
+    "lines": [
+      {"speaker": "Anna", "text": "Good morning, everyone. Can you all hear me okay?", "meaning_ja": "皆さん、おはようございます。私の声は聞こえていますか？"},
+      {"speaker": "Raj", "text": "Yes, loud and clear.", "meaning_ja": "はい、はっきり聞こえます。"},
+      {"speaker": "Anna", "text": "Great. Before we get started, has everyone had a chance to look at the slides?", "meaning_ja": "よかったです。始める前に、皆さんスライドに目を通していただけましたか？"},
+      {"speaker": "Raj", "text": "I went through them this morning. I have a few questions about the budget.", "meaning_ja": "今朝目を通しました。予算についていくつか質問があります。"},
+      {"speaker": "Anna", "text": "Perfect. Let's go over the timeline first and then come back to the budget.", "meaning_ja": "了解です。まずスケジュールを確認して、その後で予算に戻りましょう。"},
+      {"speaker": "Raj", "text": "Sounds good to me.", "meaning_ja": "それで大丈夫です。"}
+    ]
+  }
+]

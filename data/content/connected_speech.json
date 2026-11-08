@@ -1,0 +1,520 @@
+[
+  {
+    "id": "cs-001",
+    "rule_id": "linking",
+    "sentence": "Let me check it out and get back to you.",
+    "meaning_ja": "確認して、折り返しご連絡します。",
+    "sounds_like": "レミ チェキラウ(ト) アン ゲッバック タユー",
+    "explanation": "check の k と it、it の t と out がつながり「チェキラウ」と一続きに聞こえる（t は弾音化）。get back の t は詰まる音になる。",
+    "distractors": [
+      "Let me check that out and get back to you.",
+      "Let me check them out and get back to you.",
+      "Let me check it out and get back to them."
+    ]
+  },
+  {
+    "id": "cs-002",
+    "rule_id": "linking",
+    "sentence": "Can I ask a quick question?",
+    "meaning_ja": "簡単な質問をしてもいいですか？",
+    "sounds_like": "キャナイ アスカ クイック クエスチョン",
+    "explanation": "Can I が「キャナイ」、ask a が「アスカ」とつながる。a は弱く短いので聞き逃しやすい。",
+    "distractors": [
+      "Can I ask the quick question?",
+      "Could I ask a quick question?",
+      "Can I ask you a quick question?"
+    ]
+  },
+  {
+    "id": "cs-003",
+    "rule_id": "linking",
+    "sentence": "We're running out of time, so let's move on.",
+    "meaning_ja": "時間がなくなってきたので、先に進みましょう。",
+    "sounds_like": "ウィア ラニンガウロヴ タイム ソウ レッツ ムーヴォン",
+    "explanation": "running out of が「ラニンガウロヴ」と1語のようにつながる（out of の t は弾音化）。move on も「ムーヴォン」とつながる。",
+    "distractors": [
+      "We ran out of time, so let's move on.",
+      "We've run out of time, so let's move on."
+    ]
+  },
+  {
+    "id": "cs-004",
+    "rule_id": "linking",
+    "sentence": "Could you put it on the agenda?",
+    "meaning_ja": "それを議題に入れてもらえますか？",
+    "sounds_like": "クジュ プリロン ディ アジェンダ",
+    "explanation": "put it on が「プリロン」とつながる（t が弾音化してラ行の音に）。Could you も同化して「クジュ」になる。",
+    "distractors": [
+      "Could you put them on the agenda?",
+      "Could you put that on the agenda?",
+      "Could you put it in the agenda?"
+    ]
+  },
+  {
+    "id": "cs-005",
+    "rule_id": "linking",
+    "sentence": "I'll send it over in an hour.",
+    "meaning_ja": "1時間後にお送りします。",
+    "sounds_like": "アイル センディローヴァ イナナワー",
+    "explanation": "send it over が「センディローヴァ」、in an hour が「イナナワー」とつながる。hour の h は発音しないので、an hour がそのまま連結する。",
+    "distractors": [
+      "I'll send them over in an hour.",
+      "I'll send it over in half an hour.",
+      "I sent it over an hour ago."
+    ]
+  },
+  {
+    "id": "cs-006",
+    "rule_id": "elision",
+    "sentence": "Let's meet next week to discuss the details.",
+    "meaning_ja": "来週会って、詳細を話し合いましょう。",
+    "sounds_like": "レッツ ミー(ト) ネクスウィーク タ ディスカス ダ ディーテイルズ",
+    "explanation": "next week の t が脱落して「ネクスウィーク」。meet の t も次の n の前でほぼ聞こえない。",
+    "distractors": [
+      "Let's meet this week to discuss the details.",
+      "Let's meet next weekend to discuss the details.",
+      "Let's meet next week to discuss these details."
+    ]
+  },
+  {
+    "id": "cs-007",
+    "rule_id": "elision",
+    "sentence": "I just wanted to check in.",
+    "meaning_ja": "ちょっと様子を確認したかっただけです。",
+    "sounds_like": "アイ ジャス(ト) ワニッ(ド)タ チェキン",
+    "explanation": "just の t が脱落し、wanted は nt の t が消えて「ワニッド」に近くなる。to は弱く「タ」。check in は「チェキン」とつながる。",
+    "distractors": [
+      "I just want to check in.",
+      "I just wanted to check it.",
+      "I just wanted to check in with you."
+    ]
+  },
+  {
+    "id": "cs-008",
+    "rule_id": "elision",
+    "sentence": "We can't take that risk.",
+    "meaning_ja": "そのリスクは取れません。",
+    "sounds_like": "ウィ キャーン(ト) テイク ダッ(ト) リスク",
+    "explanation": "can't の t は次の t に吸収されてほぼ聞こえない。否定の can't は「キャーン」と強く長め、肯定の can は「クン」と弱く短いので、母音の長さと強さで聞き分ける。",
+    "distractors": [
+      "We can take that risk.",
+      "We can't take the risk.",
+      "We couldn't take that risk."
+    ]
+  },
+  {
+    "id": "cs-009",
+    "rule_id": "elision",
+    "sentence": "I'd like to hold off until next month.",
+    "meaning_ja": "来月まで見送りたいと思います。",
+    "sounds_like": "アイ(ド) ライ(ク)タ ホールドーフ アンティル ネクスマンス",
+    "explanation": "I'd の d、like の k が弱まり、next month は t が脱落して「ネクスマンス」。hold off はつながって「ホールドーフ」。",
+    "distractors": [
+      "I'd like to hold on until next month.",
+      "I'd like to hold off until next Monday."
+    ]
+  },
+  {
+    "id": "cs-010",
+    "rule_id": "elision",
+    "sentence": "She left the company last month.",
+    "meaning_ja": "彼女は先月退職しました。",
+    "sounds_like": "シー レフ(ト)ダ カンパニー ラス(ト)マンス",
+    "explanation": "left the の t、last month の t が脱落する。th の前の t はほぼ聞こえない。",
+    "distractors": [
+      "She left the company last Monday.",
+      "She left a company last month.",
+      "She's left the company this month."
+    ]
+  },
+  {
+    "id": "cs-011",
+    "rule_id": "assimilation",
+    "sentence": "Would you mind sending me the file?",
+    "meaning_ja": "ファイルを送っていただけますか？",
+    "sounds_like": "ウッジュー マイン センディン ミー ダ ファイル",
+    "explanation": "Would you の d と y が混ざって「ウッジュー」。mind sending の d も脱落しやすい。",
+    "distractors": [
+      "Do you mind sending me the file?",
+      "Would you mind sending them the file?",
+      "Would you mind sending me a file?"
+    ]
+  },
+  {
+    "id": "cs-012",
+    "rule_id": "assimilation",
+    "sentence": "Nice to meet you. I've heard a lot about you.",
+    "meaning_ja": "はじめまして。お噂はかねがね伺っています。",
+    "sounds_like": "ナイスタ ミーチュー。アイヴ ハーダ ララバウチュー",
+    "explanation": "meet you と about you は t と y が混ざって「チュー」になる。heard a lot about は「ハーダララバウ」とつながる。",
+    "distractors": [
+      "Nice to meet you. I've heard a lot about it.",
+      "Nice to see you. I've heard a lot about you.",
+      "Nice to meet you. I heard a lot about you."
+    ]
+  },
+  {
+    "id": "cs-013",
+    "rule_id": "assimilation",
+    "sentence": "Did you get a chance to review the proposal?",
+    "meaning_ja": "提案書に目を通す時間はありましたか？",
+    "sounds_like": "ディジュー ゲラ チャンス タ リヴュー ダ プロポウザル",
+    "explanation": "Did you の d と y が混ざって「ディジュー」。get a は弾音化して「ゲラ」。",
+    "distractors": [
+      "Do you get a chance to review the proposal?",
+      "Did you get the chance to review the proposal?",
+      "Did you have a chance to review the proposal?"
+    ]
+  },
+  {
+    "id": "cs-014",
+    "rule_id": "assimilation",
+    "sentence": "I'll let you know as soon as I hear back.",
+    "meaning_ja": "返事が来たら、すぐにお知らせします。",
+    "sounds_like": "アイル レッチュー ノウ アズスーナザイ ヒア バック",
+    "explanation": "let you は t と y が混ざって「レッチュー」。as soon as I は連結して「アズスーナザイ」。",
+    "distractors": [
+      "I'll let you know as soon as I get back.",
+      "I'll tell you as soon as I hear back.",
+      "I'd let you know as soon as I hear back."
+    ]
+  },
+  {
+    "id": "cs-015",
+    "rule_id": "assimilation",
+    "sentence": "What are your thoughts on this year's budget?",
+    "meaning_ja": "今年度の予算について、どうお考えですか？",
+    "sounds_like": "ワラヨー ソーツ オン ディシーヤーズ バジェット",
+    "explanation": "this year の s と y が混ざって「ディシーヤー」。What are your は弾音化と弱形で「ワラヨー」と短くなる。",
+    "distractors": [
+      "What are your thoughts on last year's budget?",
+      "What were your thoughts on this year's budget?",
+      "What are our thoughts on this year's budget?"
+    ]
+  },
+  {
+    "id": "cs-016",
+    "rule_id": "flap_t",
+    "sentence": "Can we get it done by Thursday?",
+    "meaning_ja": "木曜日までに終わらせられますか？",
+    "sounds_like": "キャンウィ ゲリッ ダン バイ サーズデイ",
+    "explanation": "get it の t が母音に挟まれて弾音化し「ゲリッ」になる。最後の t は詰まる音で、ほぼ聞こえない。",
+    "distractors": [
+      "Can we get it done by Tuesday?",
+      "Can we get them done by Thursday?",
+      "Could we get it done by Thursday?"
+    ]
+  },
+  {
+    "id": "cs-017",
+    "rule_id": "flap_t",
+    "sentence": "It's a lot of work, but it's worth it.",
+    "meaning_ja": "大変な作業ですが、やる価値はあります。",
+    "sounds_like": "イッツァ ラロヴ ワーク、バッ(ト) イッツ ワーシッ(ト)",
+    "explanation": "a lot of が弾音化して「アラロヴ」。worth it は連結して「ワーシッ」。",
+    "distractors": [
+      "It's a lot of work, but is it worth it?",
+      "It's a lot more work, but it's worth it.",
+      "It was a lot of work, but it was worth it."
+    ]
+  },
+  {
+    "id": "cs-018",
+    "rule_id": "flap_t",
+    "sentence": "I'll be out of the office until Monday.",
+    "meaning_ja": "月曜日まで不在にしています。",
+    "sounds_like": "アイルビー アウロヴ ディ オフィス アンティル マンデイ",
+    "explanation": "out of の t が弾音化して「アウロヴ」。of は弱く「ヴ」程度しか聞こえない。",
+    "distractors": [
+      "I'll be in the office until Monday.",
+      "I'll be out of the office on Monday.",
+      "I'd be out of the office until Monday."
+    ]
+  },
+  {
+    "id": "cs-019",
+    "rule_id": "flap_t",
+    "sentence": "We need a better way to communicate.",
+    "meaning_ja": "もっと良いコミュニケーションの方法が必要です。",
+    "sounds_like": "ウィ ニーダ ベラー ウェイ タ コミュニケイ(ト)",
+    "explanation": "better の tt が弾音化して「ベラー」。need a はつながって「ニーダ」。",
+    "distractors": [
+      "We need a better way to collaborate.",
+      "We needed a better way to communicate.",
+      "We need the better way to communicate."
+    ]
+  },
+  {
+    "id": "cs-020",
+    "rule_id": "flap_t",
+    "sentence": "What do you think about it?",
+    "meaning_ja": "それについてどう思いますか？",
+    "sounds_like": "ワダヤ シンカバウリッ",
+    "explanation": "What do you は弱形と弾音化で「ワダヤ」と短くなる。about it は弾音化してつながり「アバウリッ」。",
+    "distractors": [
+      "What did you think about it?",
+      "What do you think of it?",
+      "What do they think about it?"
+    ]
+  },
+  {
+    "id": "cs-021",
+    "rule_id": "weak_form",
+    "sentence": "I'll send it to you and the rest of the team.",
+    "meaning_ja": "あなたと、チームの他のメンバーに送ります。",
+    "sounds_like": "アイル センディッタユー ン ダ レスタヴ ダ ティーム",
+    "explanation": "to は「タ」、and は「ン」、of は「アヴ」と弱く短くなる。rest of は連結して「レスタヴ」。",
+    "distractors": [
+      "I'll send it to you and to the rest of the team.",
+      "I'll send it to you or the rest of the team.",
+      "I'll send it to you and the rest of my team."
+    ]
+  },
+  {
+    "id": "cs-022",
+    "rule_id": "weak_form",
+    "sentence": "We're looking for a solution that works for everyone.",
+    "meaning_ja": "全員にとってうまくいく解決策を探しています。",
+    "sounds_like": "ウィア ルッキンファラ ソルーション ダッ ワークス ファ エヴリワン",
+    "explanation": "for は「ファ」、a は「ア」、that は「ダッ」と弱く発音される。looking for a は「ルッキンファラ」とひとかたまりになる。",
+    "distractors": [
+      "We're looking for the solution that works for everyone.",
+      "We were looking for a solution that works for everyone.",
+      "We're looking for solutions that work for everyone."
+    ]
+  },
+  {
+    "id": "cs-023",
+    "rule_id": "weak_form",
+    "sentence": "Can you give them a call this afternoon?",
+    "meaning_ja": "今日の午後、彼らに電話してもらえますか？",
+    "sounds_like": "クニュ ギヴァマ コール ディス アフタヌーン",
+    "explanation": "Can は弱く「クン」、them は th が弱まって「アム」になり、give them a が「ギヴァマ」と聞こえる。him の弱形「イム」とまぎらわしいので文脈で判断する。",
+    "distractors": [
+      "Can you give him a call this afternoon?",
+      "Can you give me a call this afternoon?",
+      "Could you give them a call this afternoon?"
+    ]
+  },
+  {
+    "id": "cs-024",
+    "rule_id": "weak_form",
+    "sentence": "Some of us have to leave early.",
+    "meaning_ja": "何人かは早めに出なければなりません。",
+    "sounds_like": "サマヴァス ハフタ リーヴ アーリー",
+    "explanation": "of は弱く「アヴ」になり、Some of us が「サマヴァス」とつながる。have to は「ハフタ」と発音される。",
+    "distractors": [
+      "Some of us had to leave early.",
+      "Some of them have to leave early.",
+      "Some of us want to leave early."
+    ]
+  },
+  {
+    "id": "cs-025",
+    "rule_id": "weak_form",
+    "sentence": "We could have finished it earlier.",
+    "meaning_ja": "もっと早く終わらせることもできたのに。",
+    "sounds_like": "ウィ クダヴ フィニッシュティッ(ト) アーリアー",
+    "explanation": "could have の have は弱く「ア(ヴ)」になり「クダ」と聞こえる（could've）。finished it は連結する。",
+    "distractors": [
+      "We could finish it earlier.",
+      "We should have finished it earlier.",
+      "We couldn't have finished it earlier."
+    ]
+  },
+  {
+    "id": "cs-026",
+    "rule_id": "h_dropping",
+    "sentence": "Did he say when he'd be back?",
+    "meaning_ja": "彼はいつ戻るか言っていましたか？",
+    "sounds_like": "ディディ セイ ウェニード ビー バック",
+    "explanation": "Did he の h が落ちて「ディディ」、when he'd も「ウェニード」とつながる。",
+    "distractors": [
+      "Did she say when she'd be back?",
+      "Did he say when he'll be back?",
+      "Did he say when he'd come back?"
+    ]
+  },
+  {
+    "id": "cs-027",
+    "rule_id": "h_dropping",
+    "sentence": "I'll ask him to call you back.",
+    "meaning_ja": "彼に折り返し電話するよう伝えます。",
+    "sounds_like": "アイル アスキム タ コーリュー バック",
+    "explanation": "him の h が落ちて ask him が「アスキム」。call you も「コーリュー」とつながる。",
+    "distractors": [
+      "I'll ask them to call you back.",
+      "I'll ask her to call you back.",
+      "I asked him to call you back."
+    ]
+  },
+  {
+    "id": "cs-028",
+    "rule_id": "h_dropping",
+    "sentence": "Has she sent her report yet?",
+    "meaning_ja": "彼女はもうレポートを送りましたか？",
+    "sounds_like": "ハシー センター リポー(ト) イェッ(ト)",
+    "explanation": "her の h が落ちて、sent her が「センター」に近くなる。Has she は「ハシー」とつながる。",
+    "distractors": [
+      "Has she sent the report yet?",
+      "Have they sent their report yet?",
+      "Has she sent a report yet?"
+    ]
+  },
+  {
+    "id": "cs-029",
+    "rule_id": "h_dropping",
+    "sentence": "Tell him I'll be there in ten minutes.",
+    "meaning_ja": "10分で着くと彼に伝えてください。",
+    "sounds_like": "テリム アイルビー デア イン テン ミニッツ",
+    "explanation": "Tell him は h が落ちて「テリム」と1語のように聞こえる。them の弱形を使った「テラム」とも似ている。",
+    "distractors": [
+      "Tell them I'll be there in ten minutes.",
+      "Tell her I'll be there in ten minutes.",
+      "Tell him I'll be there in two minutes."
+    ]
+  },
+  {
+    "id": "cs-030",
+    "rule_id": "h_dropping",
+    "sentence": "What has he been working on?",
+    "meaning_ja": "彼は何に取り組んでいたのですか？",
+    "sounds_like": "ワラズィー ビン ワーキン オン",
+    "explanation": "has と he の h が落ち、What has he が弾音化も加わって「ワラズィー」と短くなる。",
+    "distractors": [
+      "What has she been working on?",
+      "What have they been working on?",
+      "What is he working on?"
+    ]
+  },
+  {
+    "id": "cs-031",
+    "rule_id": "contraction",
+    "sentence": "We're going to need more time.",
+    "meaning_ja": "もっと時間が必要になりそうです。",
+    "sounds_like": "ウィア ガナ ニー(ド) モア タイム",
+    "explanation": "going to が「ガナ（gonna）」と縮約される。予定や見込みを話すときに頻出。",
+    "distractors": [
+      "We were going to need more time.",
+      "We'll need more time.",
+      "We're going to need more staff."
+    ]
+  },
+  {
+    "id": "cs-032",
+    "rule_id": "contraction",
+    "sentence": "Do you want to grab lunch after the meeting?",
+    "meaning_ja": "会議の後、ランチに行きませんか？",
+    "sounds_like": "ジュ ワナ グラブ ランチ アフタ ダ ミーティン",
+    "explanation": "want to が「ワナ（wanna）」、Do you が「ジュ」と縮約される。want me to（ワミタ）と聞き分ける。",
+    "distractors": [
+      "Do you want me to grab lunch after the meeting?",
+      "Did you want to grab lunch after the meeting?",
+      "Do you want to grab lunch before the meeting?"
+    ]
+  },
+  {
+    "id": "cs-033",
+    "rule_id": "contraction",
+    "sentence": "Let me know if you have any questions.",
+    "meaning_ja": "ご質問があればお知らせください。",
+    "sounds_like": "レミ ノウ イフュー ハヴ エニ クエスチョンズ",
+    "explanation": "Let me が「レミ（lemme）」と縮約される。if you も「イフュー」とつながる。",
+    "distractors": [
+      "Let us know if you have any questions.",
+      "Let me know if you had any questions.",
+      "Let me know if you have any concerns."
+    ]
+  },
+  {
+    "id": "cs-034",
+    "rule_id": "contraction",
+    "sentence": "I don't know if that's going to work.",
+    "meaning_ja": "それがうまくいくかどうか分かりません。",
+    "sounds_like": "アイダノウ イフ ダッツ ガナ ワーク",
+    "explanation": "I don't know が「アイダノウ（dunno に近い）」、going to が「ガナ」と縮約される。",
+    "distractors": [
+      "I didn't know if that was going to work.",
+      "I don't know if that's going to work out.",
+      "I don't think that's going to work."
+    ]
+  },
+  {
+    "id": "cs-035",
+    "rule_id": "contraction",
+    "sentence": "We've got to finish this by Friday.",
+    "meaning_ja": "金曜日までにこれを終わらせないといけません。",
+    "sounds_like": "ウィヴ ガラ フィニッシュ ディス バイ フライデイ",
+    "explanation": "got to が弾音化して「ガラ（gotta）」になる。We've の ve は弱く、ほとんど聞こえないこともある。",
+    "distractors": [
+      "We had to finish this by Friday.",
+      "We've got to finish these by Friday.",
+      "We get to finish this by Friday."
+    ]
+  },
+  {
+    "id": "cs-036",
+    "rule_id": "stress_chunking",
+    "sentence": "If we can't agree on the price, we'll have to look at other options.",
+    "meaning_ja": "価格で合意できなければ、他の選択肢を検討しなければなりません。",
+    "sounds_like": "イフウィ キャーン(ト) アグリー オンダ プライス / ウィル ハフタ ルッカッ(ト) アザー オプションズ",
+    "explanation": "強く読まれるのは can't, agree, price, look, options などの内容語。if we や we'll have to は弱く速い。カンマの位置で2つのチャンクに分かれる。",
+    "distractors": [
+      "If we can agree on the price, we'll have to look at other options.",
+      "If we can't agree on the price, we'd have to look at other options.",
+      "If we can't agree on a price, we'll have to look at other options."
+    ]
+  },
+  {
+    "id": "cs-037",
+    "rule_id": "stress_chunking",
+    "sentence": "As far as I know, the deadline hasn't changed.",
+    "meaning_ja": "私の知る限り、締め切りは変わっていません。",
+    "sounds_like": "アズファーラザイ ノウ / ダ デッドライン ハズン(ト) チェンジド",
+    "explanation": "As far as I know が1つのチャンクで「アズファーラザイノウ」とつながる。hasn't の t は弱く、has と聞き間違えやすいので要注意。",
+    "distractors": [
+      "As far as I know, the deadline has changed.",
+      "As far as I can tell, the deadline hasn't changed.",
+      "As far as we know, the deadline hasn't changed."
+    ]
+  },
+  {
+    "id": "cs-038",
+    "rule_id": "stress_chunking",
+    "sentence": "The main thing we need to focus on is customer retention.",
+    "meaning_ja": "私たちが注力すべき一番の点は、顧客の維持です。",
+    "sounds_like": "ダ メイン シング ウィ ニーッタ フォウカソン / イズ カスタマー リテンション",
+    "explanation": "主語が長いので focus on までで1つのチャンク。強く読まれるのは main, thing, focus, customer, retention。need to は「ニーッタ」と弱くなる。",
+    "distractors": [
+      "The main thing we needed to focus on is customer retention.",
+      "The main thing we need to focus on is customer attention.",
+      "One thing we need to focus on is customer retention."
+    ]
+  },
+  {
+    "id": "cs-039",
+    "rule_id": "stress_chunking",
+    "sentence": "What I'm trying to say is that we need more data.",
+    "meaning_ja": "私が言いたいのは、もっとデータが必要だということです。",
+    "sounds_like": "ワライム トライナ セイ / イズダッ ウィ ニー(ド) モア デイタ",
+    "explanation": "What I'm trying to say is までが前置きのチャンクで、弱く速く読まれる。強調されるのは後半の need, more, data。that は弱く「ダッ」。",
+    "distractors": [
+      "What I'm trying to say is that we need more time.",
+      "What I was trying to say is that we need more data.",
+      "What I'm trying to say is we need more data."
+    ]
+  },
+  {
+    "id": "cs-040",
+    "rule_id": "stress_chunking",
+    "sentence": "Before we wrap up, does anyone have any questions?",
+    "meaning_ja": "終わる前に、どなたか質問はありますか？",
+    "sounds_like": "ビフォー ウィ ラッパップ / ダズ エニワン ハヴ エニ クエスチョンズ",
+    "explanation": "wrap up は連結して「ラッパップ」。前半と後半の2つのチャンクに分かれ、後半では anyone と questions が強く読まれる。",
+    "distractors": [
+      "Before we wrap up, do you have any questions?",
+      "Before we wrap it up, does anyone have any questions?",
+      "After we wrap up, does anyone have any questions?"
+    ]
+  }
+]

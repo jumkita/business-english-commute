@@ -1,0 +1,146 @@
+[
+  {
+    "id": "gr-001",
+    "topic": "politeness",
+    "situation_ja": "上司に資料の確認を頼む。より丁寧なのは？",
+    "options": ["Can you check this?", "I was wondering if you could take a look at this."],
+    "answer_index": 1,
+    "explanation": "I was wondering if you could ～ は、過去進行形で依頼を和らげる丁寧な形。Can you ～? は同僚同士なら問題ないが、目上には直接的に響く。"
+  },
+  {
+    "id": "gr-002",
+    "topic": "politeness",
+    "situation_ja": "締め切りの延長をお願いする。より丁寧なのは？",
+    "options": ["I need more time.", "Would it be possible to extend the deadline by a few days?"],
+    "answer_index": 1,
+    "explanation": "Would it be possible to ～? は相手に判断の余地を残す依頼の形。by a few days で延長幅を具体的に示すと受け入れられやすい。"
+  },
+  {
+    "id": "gr-003",
+    "topic": "politeness",
+    "situation_ja": "相手の提案に反対する。より角が立たないのは？",
+    "options": ["That's wrong.", "I'm not sure that would work in our case."],
+    "answer_index": 1,
+    "explanation": "I'm not sure ～ で断定を避け、would で仮定的に言うことで柔らかくなる。in our case で「一般論ではなく自社の事情として」と限定している。"
+  },
+  {
+    "id": "gr-004",
+    "topic": "word_order",
+    "situation_ja": "会議に遅れることを伝える。自然なのは？",
+    "options": ["I'm going to be about ten minutes late.", "I will be late ten minutes."],
+    "answer_index": 0,
+    "explanation": "時間の長さは late の前に置き、be + 時間 + late の語順にする。すでに分かっている見込みには be going to が自然。"
+  },
+  {
+    "id": "gr-005",
+    "topic": "tense",
+    "situation_ja": "先週の会議で決まったことを報告する。正しいのは？",
+    "options": ["We have decided to postpone the launch last week.", "We decided to postpone the launch last week."],
+    "answer_index": 1,
+    "explanation": "last week のように過去の時点を示す語があるときは、現在完了ではなく過去形を使う。"
+  },
+  {
+    "id": "gr-006",
+    "topic": "countability",
+    "situation_ja": "資料を受け取ったお礼を伝える。正しいのは？",
+    "options": ["Thank you for the informations.", "Thank you for the information."],
+    "answer_index": 1,
+    "explanation": "information は数えられない名詞なので複数形にしない。数えるときは a piece of information。advice, equipment, feedback も同様。"
+  },
+  {
+    "id": "gr-007",
+    "topic": "verb_pattern",
+    "situation_ja": "日程について相談したいと切り出す。正しいのは？",
+    "options": ["Can I discuss about the schedule with you?", "Can I discuss the schedule with you?"],
+    "answer_index": 1,
+    "explanation": "discuss は他動詞なので about は不要。talk about the schedule なら about が必要。"
+  },
+  {
+    "id": "gr-008",
+    "topic": "conditional",
+    "situation_ja": "予算が足りない現状を踏まえて、仮定の話をする。正しいのは？",
+    "options": ["If we would have more budget, we could hire more people.", "If we had more budget, we could hire more people."],
+    "answer_index": 1,
+    "explanation": "現在の事実に反する仮定（仮定法過去）では、if 節に過去形を使う。if 節に would は使わない。"
+  },
+  {
+    "id": "gr-009",
+    "topic": "modal",
+    "situation_ja": "「もっと入念にテストすべきだった」と振り返る。正しいのは？",
+    "options": ["We should have tested it more thoroughly.", "We should test it more thoroughly before."],
+    "answer_index": 0,
+    "explanation": "should have + 過去分詞で「～すべきだった（のにしなかった）」という過去への後悔を表す。"
+  },
+  {
+    "id": "gr-010",
+    "topic": "politeness",
+    "situation_ja": "デザインの見直しを提案する。最も丁寧なのは？",
+    "options": ["You should change the design.", "It might be a good idea to revisit the design.", "Change the design."],
+    "answer_index": 1,
+    "explanation": "It might be a good idea to ～ は、主語を相手にせず might で可能性として示すため、押し付けがましくない。"
+  },
+  {
+    "id": "gr-011",
+    "topic": "preposition",
+    "situation_ja": "提出期限を伝える。正しいのは？",
+    "options": ["Please submit the report until Friday.", "Please submit the report by Friday."],
+    "answer_index": 1,
+    "explanation": "by は「～までに（期限）」、until は「～までずっと（継続）」。提出のような一回の行為の期限には by を使う。"
+  },
+  {
+    "id": "gr-012",
+    "topic": "politeness",
+    "situation_ja": "相手の都合を尋ねる。より丁寧なのは？",
+    "options": ["When are you free?", "When would be a good time for you?"],
+    "answer_index": 1,
+    "explanation": "When would be a good time for you? は相手の都合を優先する聞き方。When are you free? は親しい相手向け。"
+  },
+  {
+    "id": "gr-013",
+    "topic": "politeness",
+    "situation_ja": "誘いを断る。より丁寧なのは？",
+    "options": ["No, I can't.", "I'd love to, but I'm afraid I have another commitment."],
+    "answer_index": 1,
+    "explanation": "まず I'd love to で前向きな気持ちを示し、I'm afraid で断りを和らげる。commitment は「先約・予定」。"
+  },
+  {
+    "id": "gr-014",
+    "topic": "article",
+    "situation_ja": "自社を紹介する。正しいのは？",
+    "options": ["We are a leading provider of cloud services in Japan.", "We are leading provider of cloud services in Japan."],
+    "answer_index": 0,
+    "explanation": "provider は数えられる名詞なので、単数のときは a や the が必要。"
+  },
+  {
+    "id": "gr-015",
+    "topic": "comparison",
+    "situation_ja": "売上の伸びを報告する。正しいのは？",
+    "options": ["Our sales increased by 5% compared to last year.", "Our sales increased 5% than last year."],
+    "answer_index": 0,
+    "explanation": "than は比較級（higher, more など）と一緒に使う。増加幅は by で示し、比較の基準は compared to / with で表す。"
+  },
+  {
+    "id": "gr-016",
+    "topic": "preposition",
+    "situation_ja": "依頼を引き受ける。正しいのは？",
+    "options": ["No problem. I'll get it done by tomorrow.", "No problem. I'll do it until tomorrow."],
+    "answer_index": 0,
+    "explanation": "「明日までに終わらせる」は期限なので by。until tomorrow だと「明日までずっとやり続ける」という意味になってしまう。"
+  },
+  {
+    "id": "gr-017",
+    "topic": "verb_pattern",
+    "situation_ja": "メールの結びで、返信を待っていると伝える。正しいのは？",
+    "options": ["Looking forward to hear from you.", "I look forward to hearing from you."],
+    "answer_index": 1,
+    "explanation": "look forward to の to は前置詞なので、後ろは動名詞（～ing）になる。"
+  },
+  {
+    "id": "gr-018",
+    "topic": "tense",
+    "situation_ja": "質問があれば知らせてほしいと伝える。正しいのは？",
+    "options": ["Let me know if you have any questions.", "Let me know if you will have any questions."],
+    "answer_index": 0,
+    "explanation": "条件を表す if 節では、未来のことでも現在形を使う。"
+  }
+]

@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; color: #24292f; }
+    button { width: 100%; min-height: 52px; font-size: 17px; border-radius: 10px; border: 1px solid #0969da;
+             background: #0969da; color: #ffffff; -webkit-tap-highlight-color: transparent; }
+    button.listening { background: #cf222e; border-color: #cf222e; }
+    button:disabled { background: #8c959f; border-color: #8c959f; }
+    #live { font-size: 16px; min-height: 24px; margin-top: 8px; color: #57606a; }
+    #status { font-size: 13px; color: #cf222e; margin-top: 4px; }
+  </style>
+</head>
+<body>
+  <button id="mic" type="button">🎤 タップして英語で話す</button>
+  <div id="live"></div>
+  <div id="status"></div>
+  <script>
+    // streamlit-component-lib を使わずに、Streamlit のコンポーネント通信（postMessage）を直接扱う
+    var Recognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    var micButton = document.getElementById("mic");
+    var liveText = document.getElementById("live");
+    var statusText = document.getElementById("status");
+    var recognition = null;
+    var listening = false;
+    var finalTranscript = "";
+    var lastError = null;
+    var language = "en-US";
+    var label = micButton.textContent;
+    var reportedUnsupported = false;
+
+    function sendToStreamlit(type, payload) {
+      var message = { isStreamlitMessage: true, type: type };
+      for (var key in payload) { message[key] = payload[key]; }
+      window.parent.postMessage(message, "*");
+    }
+
+    function setValue(value) {
+      sendToStreamlit("streamlit:setComponentValue", { value: value, dataType: "json" });
+    }
+
+    function updateHeight() {
+      sendToStreamlit("streamlit:setFrameHeight", { height: document.body.scrollHeight + 8 });
+    }
+
+    function updateButton() {
+      micButton.textContent = listening ? "⏹ 話し終えたらタップ" : label;
+      micButton.className = listening ? "listening" : "";
+      updateHeight();
+    }
+
+    function startListening() {
+      finalTranscript = "";
+      lastError = null;
+      liveText.textContent = "";
+      statusText.textContent = "";
+      recognition = new Recognition();
+      recognition.lang = language;
+      recognition.interimResults = true;
+      recognition.continuous = false;
+      recognition.maxAlternatives = 1;
+      recognition.onresult = function (event) {
+        var interim = "";
+        for (var i = event.resultIndex; i < event.results.length; i++) {
+          var result = event.results[i];
+          if (result.isFinal) { finalTranscript += result[0].transcript; } else { interim += result[0].transcript; }
+        }
+        liveText.textContent = (finalTranscript + " " + interim).trim();
+        updateHeight();
+      };
+      recognition.onerror = function (event) { lastError = event.error; };
+      recognition.onend = function () {
+        listening = false;
+        updateButton();
+        // Safari は確定（isFinal）前に終了することがあるため、途中結果も採用する
+        var transcript = (finalTranscript || liveText.textContent).trim();
+        if (transcript) {
+          setValue({ transcript: transcript, nonce: Date.now() });
+        } else {
+          setValue({ error: lastError || "no-speech", nonce: Date.now() });
+        }
+      };
+      try {
+        recognition.start();
+        listening = true;
+      } catch (error) {
+        statusText.textContent = "音声認識を開始できませんでした";
+      }
+      updateButton();
+    }
+
+    micButton.addEventListener("click", function () {
+      if (!Recognition) { return; }
+      if (listening && recognition) { recognition.stop(); return; }
+      startListening();
+    });
+
+    window.addEventListener("message", function (event) {
+      if (!event.data || event.data.type !== "streamlit:render") { return; }
+      var args = event.data.args || {};
+      language = args.lang || language;
+      label = args.label || label;
+      if (!Recognition) {
+        micButton.disabled = true;
+        statusText.textContent = "このブラウザは音声認識に対応していません";
+        if (!reportedUnsupported) {
+          reportedUnsupported = true;
+          setValue({ error: "unsupported", nonce: Date.now() });
+        }
+      }
+      updateButton();
+    });
+
+    sendToStreamlit("streamlit:componentReady", { apiVersion: 1 });
+  </script>
+</body>
+</html>

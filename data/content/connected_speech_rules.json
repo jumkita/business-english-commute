@@ -1,0 +1,50 @@
+[
+  {
+    "id": "linking",
+    "name_ja": "連結（リンキング）",
+    "name_en": "Linking",
+    "explanation": "子音で終わる語の直後に母音で始まる語が来ると、2語がつながって1語のように聞こえる。例: check it out →「チェキラウ(ト)」。語の切れ目を探すのではなく、かたまりで聞き取るのがコツ。"
+  },
+  {
+    "id": "elision",
+    "name_ja": "脱落（エリジョン）",
+    "name_en": "Elision",
+    "explanation": "子音が連続すると、一部の音（特に語末の t・d）がほとんど発音されなくなる。例: next week →「ネクスウィーク」、last month →「ラスマンス」。聞こえない音を文脈で補う力が必要。"
+  },
+  {
+    "id": "assimilation",
+    "name_ja": "同化",
+    "name_en": "Assimilation",
+    "explanation": "隣り合う音が影響し合い、別の音に変わる。t + you →「チュ」、d + you →「ジュ」、s + y →「シュ」に近くなる。例: meet you →「ミーチュー」、would you →「ウッジュー」、this year →「ディシーヤ」。"
+  },
+  {
+    "id": "flap_t",
+    "name_ja": "弾音化（フラップT）",
+    "name_en": "Flap T",
+    "explanation": "米国英語では、母音に挟まれた t（や d）が日本語のラ行に近い軽い音になる。例: get it →「ゲリッ」、a lot of →「アラロヴ」、better →「ベラー」。"
+  },
+  {
+    "id": "weak_form",
+    "name_ja": "弱形",
+    "name_en": "Weak forms",
+    "explanation": "to, for, of, and, can, them などの機能語は、文中では弱く短く「ア」に近い音になる。例: for →「ファ」、to →「タ」、and →「ン」、them →「アム」。強く読まれる内容語との差が英語のリズムを作る。"
+  },
+  {
+    "id": "h_dropping",
+    "name_ja": "h の脱落",
+    "name_en": "H-dropping",
+    "explanation": "文中の he, him, his, her, have などの h は弱まって消えやすく、前の語とつながる。例: ask him →「アスキム」、tell her →「テラー」、did he →「ディディ」。"
+  },
+  {
+    "id": "contraction",
+    "name_ja": "縮約（口語の短縮形）",
+    "name_en": "Reductions",
+    "explanation": "going to →「ガナ（gonna）」、want to →「ワナ（wanna）」、got to →「ガラ（gotta）」、let me →「レミ（lemme）」など、会話で定着した短縮。聞き取れることが大切だが、メールなどの文章では使わない。"
+  },
+  {
+    "id": "stress_chunking",
+    "name_ja": "文強勢とチャンク",
+    "name_en": "Stress and chunking",
+    "explanation": "英語は内容語（名詞・動詞・形容詞など）を強く、機能語を弱く速く読む。また意味のまとまり（チャンク）ごとに区切って話される。弱い部分を聞き逃さず、チャンク単位で意味を取るのがコツ。"
+  }
+]
