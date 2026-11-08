@@ -56,6 +56,7 @@ PROGRESS_FILE = "progress.local.json"
 公開 URL は誰でも開けるため、**パスコードを入力するまで Gist には接続しません**（入力前はお試しモード）。
 
 1. [gist.github.com](https://gist.github.com) で **Secret gist** を作成します。ファイル名は `progress.json`、内容は `{}` だけにします
+   - Secret gist は一覧や検索には出ませんが、URL を知っている人は閲覧できます。保存されるのは問題の ID・復習日・正答数などの学習記録だけで、個人情報は含みません
 2. 作成した Gist の URL（`https://gist.github.com/<ユーザー名>/<GIST_ID>`）の末尾の英数字を控えます
 3. GitHub の Settings → Developer settings → Personal access tokens でトークンを作成します
    - fine-grained トークンの場合: Account permissions の **Gists** を Read and write にします（ほかの権限は不要です）
